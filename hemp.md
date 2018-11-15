@@ -39,6 +39,11 @@ We can see cache size in metrics endpoint provided by actuator library
 /metrics
 cache.ticketsCache.size=1
 
+To disable caching, set spring.cache.type=none
+
+
+Can specify multiple cache names:
+spring.cache.cache-names=ticketsCache, personCache
 
 
 
